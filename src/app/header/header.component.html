@@ -1,0 +1,30 @@
+<header class="musk-header">
+  
+  <div class="header-col left">
+    <h1 class="main-name">{{header.name}}</h1>
+    <p class="tagline">{{header.goalLife}}</p>
+  </div>
+  
+  <div class="header-col center">
+    <div class="photo-placeholder">
+  <img [src]="header.photoUrl" alt="Foto Perfil" class="profile-img">
+</div>
+  </div>
+
+  <div class="header-col right">
+    <div class="contact-block">
+      <div class="contact-item">
+        <span class="contact-text">{{header.email}}</span>
+        <span class="material-icons">email</span>
+      </div>
+      <div class="contact-item">
+        <span class="contact-text">{{header.phoneNumber}}</span>
+        <span class="material-icons">phone</span>
+      </div>
+      <div class="contact-item">
+        <span class="contact-text">{{header.location}}</span>
+        <span class="material-icons">place</span>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,44 @@
+.cert-card {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #eee; /* Separador sutil entre cursos */
+}
+
+.cert-main-title {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #1a2a3a;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  background-color: #f8f9fa;
+  padding: 4px;
+}
+
+.cert-info-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr; /* Divide la información en dos columnas */
+  gap: 10px;
+  padding: 0 10px;
+}
+
+.info-group p {
+  font-size: 0.75rem;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.status-tag {
+  color: #f0544f; /* Rojo Musk para resaltar el estado */
+  font-weight: bold;
+}
+
+.date-col {
+  text-align: right; /* Alinea la fecha a la derecha para equilibrio visual */
+  border-left: 1px solid #eee;
+  padding-left: 10px;
+}
+
+.date-text {
+  color: #666;
+  font-style: italic;
+}

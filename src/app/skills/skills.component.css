@@ -1,0 +1,39 @@
+.skills-container {
+  width: 100%;
+}
+
+.skill-item {
+  margin-bottom: 12px;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.skill-name {
+  font-weight: 600;
+  color: #1a2a3a;
+  font-size: 0.85rem;
+}
+
+.skill-percentage {
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.progress-bar-container {
+  background-color: #eeeeee;
+  height: 10px;
+  width: 100%;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  background-color: #f0544f; /* Rojo Musk */
+  height: 100%;
+  border-radius: 2px;
+  transition: width 1s ease-in-out;
+}

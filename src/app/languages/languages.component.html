@@ -1,0 +1,14 @@
+<div class="languages-container">
+  <h2>Languages</h2>
+  <div class="languages-list">
+    <div *ngFor="let lang of languages" class="lang-item">
+      <div class="lang-info">
+        <span class="lang-name"><strong>{{ lang.idioma }}</strong></span>
+        <span class="lang-level">{{ lang.nivelTexto }}</span>
+      </div>
+      <div class="progress-bar-container">
+        <div class="progress-fill" [style.width.%]="lang.nivelPorcentaje"></div>
+      </div>
+    </div>
+  </div>
+</div>

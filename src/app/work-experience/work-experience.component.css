@@ -1,0 +1,16 @@
+.job-item {
+  margin-bottom: 25px;
+  padding-left: 20px;
+  border-left: 2px solid #eee;
+}
+
+.job-item h3 {
+  margin: 5px 0;
+  color: #34495e;
+}
+
+.date-range {
+  font-weight: bold;
+  color: #7f8c8d;
+  font-size: 0.85rem;
+}

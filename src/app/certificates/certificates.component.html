@@ -1,0 +1,19 @@
+<div class="cert-container">
+  <h2>Certificaciones y Cursos</h2>
+  
+  <div *ngFor="let cert of certificates" class="cert-card">
+    <h3 class="cert-main-title">{{ cert.titulo }}</h3>
+    
+    <div class="cert-info-grid">
+      <div class="info-group">
+        <p><strong>Emisor:</strong> {{ cert.emisor }}</p>
+        <p><strong>Estado:</strong> <span class="status-tag">{{ cert.estado }}</span></p>
+      </div>
+      
+      <div class="info-group date-col">
+        <p><strong>Expedición:</strong></p>
+        <p class="date-text">{{ cert.fechaExpedicion }}</p>
+      </div>
+    </div>
+  </div>
+</div>

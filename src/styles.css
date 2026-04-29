@@ -1,0 +1,46 @@
+/* RESET PARA SCROLL NATURAL */
+body {
+  background-color: #d1d4d7;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Permite que el contenido empiece arriba */
+  padding: 40px 0; /* Espacio arriba y abajo para que respire */
+  overflow-y: auto; /* PERMITE SCROLL SI ES NECESARIO */
+}
+
+.cv-paper {
+  width: 900px; 
+  min-height: 100vh; /* Altura mínima de la pantalla, pero puede crecer */
+  background: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.cv-body {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr; /* Mantenemos las dos columnas */
+  gap: 40px;
+  padding: 30px 50px;
+  flex: 1;
+}
+
+/* Títulos con borde rojo (Estilo Musk) */
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #1a2a3a;
+  border-left: 6px solid #f0544f;
+  padding-left: 15px;
+  margin: 25px 0 15px -15px;
+  letter-spacing: 1px;
+}
+
+/* Texto más legible al 100% */
+p, span, li, div {
+  font-size: 0.85rem; /* Un poco más grande para lectura cómoda */
+  line-height: 1.4;
+  color: #333;
+}

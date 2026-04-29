@@ -1,0 +1,28 @@
+/* Heredará el estilo de h2 del styles.css global (borde rojo) */
+
+.interests-grid {
+  display: flex;
+  flex-wrap: wrap; /* Se acomodan solos para no ocupar mucho alto */
+  gap: 10px;
+  padding-top: 5px;
+}
+
+.interest-tag {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #f8f9fa;
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid #dee2e6;
+}
+
+.interest-tag .material-icons {
+  font-size: 14px;
+  color: #1a2a3a;
+}
+
+.interest-name {
+  font-size: 0.75rem;
+  font-weight: 600;
+}

@@ -1,0 +1,38 @@
+.languages-container {
+  width: 100%;
+}
+
+.lang-item {
+  margin-bottom: 15px;
+}
+
+.lang-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 4px;
+}
+
+.lang-name {
+  font-size: 0.85rem;
+  color: #1a2a3a;
+}
+
+.lang-level {
+  font-size: 0.75rem;
+  color: #f0544f; /* El nivel (A2, B1, etc) en rojo para resaltar */
+  font-style: italic;
+}
+
+.progress-bar-container {
+  background-color: #eeeeee;
+  height: 8px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.progress-fill {
+  background-color: #1a2a3a; /* Azul oscuro para diferenciar de las Skills */
+  height: 100%;
+  border-radius: 2px;
+}

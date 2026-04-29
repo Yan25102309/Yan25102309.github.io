@@ -1,0 +1,9 @@
+<div class="interests-section">
+  <h2>Intereses</h2>
+  <div class="interests-grid">
+    <div *ngFor="let item of interests" class="interest-tag">
+      <span class="material-icons">{{ item.icono }}</span>
+      <span class="interest-name">{{ item.nombre }}</span>
+    </div>
+  </div>
+</div>
