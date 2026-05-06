@@ -2,10 +2,22 @@
   <h2>Experiencia Laboral</h2>
   <div *ngFor="let job of workExperience">
     <div class="job-item">
+      <!-- Mantenemos tus datos de fecha, ubicación y puesto -->
       <p><strong>{{ job.startDate }} - {{ job.endDate }}</strong> | <i>{{ job.location }}</i></p>
       <h3>{{ job.position }}</h3>
       <p><b>{{ job.company }}</b></p>
-      <p>{{ job.accomplishments }}</p>
+      
+      <!-- CAMBIO CLAVE: Iteramos sobre el arreglo de logros -->
+      <ul class="accomplishments-list" *ngIf="job.accomplishments && job.accomplishments.length > 0">
+        <li *ngFor="let item of job.accomplishments">
+          {{ item }}
+        </li>
+      </ul>
+      
+      <!-- Mensaje opcional si no hay logros -->
+      <p *ngIf="!job.accomplishments || job.accomplishments.length === 0" style="font-style: italic; color: gray;">
+        Responsabilidades en proceso de actualización...
+      </p>
     </div>
     <hr>
   </div>
