@@ -15,5 +15,12 @@
         <p class="date-text">{{ cert.fechaExpedicion }}</p>
       </div>
     </div>
+
+    <div *ngIf="cert.link" class="cert-action">
+      <a [href]="cert.link" target="_blank" rel="noopener noreferrer" class="cert-btn">
+        Ver Credencial en GitHub
+      </a>
+    </div>
+
   </div>
 </div>
