@@ -42,3 +42,34 @@
   color: #666;
   font-style: italic;
 }
+
+/* Contenedor del botón */
+.cert-action {
+  margin-top: 15px;
+  text-align: right; /* Alinea el botón a la derecha, puedes cambiarlo a 'left' o 'center' */
+}
+
+/* Estilo del botón */
+.cert-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #24292e; /* Gris oscuro estilo GitHub */
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Efectos al pasar el mouse por encima */
+.cert-btn:hover {
+  background-color: #2f363d;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.cert-btn:active {
+  transform: translateY(1px);
+}
