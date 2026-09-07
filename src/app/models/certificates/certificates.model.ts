@@ -3,4 +3,5 @@ export interface Certificate {
     estado: string;
     fechaExpedicion: string;
     titulo: string;
+    link: string;
 }
